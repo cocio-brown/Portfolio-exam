@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.strokes {
+    display: block;
+    transform: rotate(90deg);
+    width: 400px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #8F8C95;
+    margin-top: 60px;
+
+}
+
+.bluestroke {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.greenstroke {
+    width: 400px;
+    margin: auto;
+}
+
+.aboutme {
+    color: #F5FDFF;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.portfolio {
+    color: #F5FDFF;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.refresh{
+    display: block;
+    margin: auto;
+    width: 50px;
+    margin-top: 150px;
+}
+.moveUp {
+    animation-name: moveUp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes moveUp {
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+.moveUpTxt {
+    animation-name: moveUpTxt;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes moveUpTxt {
+    0% {
+        font-size: 20px;
+    }
+
+    100% {
+        transform: translateY(-200px);
+        font-size: 50px;
+    }
+}
+
+.moveUpMenu {
+    animation-name: moveUpMenu;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.63, -0.01, .83, .67);
+    animation-delay: 1s;
+
+}
+
+@keyframes moveUpMenu {
+    0% {
+        transform: translateY(250px);
+    }
+
+    100% {
+        transform: translateY(-200px);
+    }
+
+}
+
+
+
