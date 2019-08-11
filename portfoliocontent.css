@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #8f8c95;
+}
+
+h2 {
+    color: #8f8c95;
+    margin-top: -5px;
+}
+
+.backArrow {
+    position: absolute;
+    transform: translate(40px, 30px);
+    width: 60px;
+}
+
+.bgSquareBw {
+    width: 1280px;
+    height: 500px;
+    background-color: #ADDAD5;
+}
+
+.bgSquareBa {
+    width: 1280px;
+    height: 500px;
+    background-color: #B4AED6;
+}
+
+.bgSquareBc {
+    width: 1280px;
+    height: 500px;
+    background-color: #C4D3D6;
+}
+
+.bgSquareBux {
+    width: 1280px;
+    height: 500px;
+    background-color: #DDC6D1;
+}
+
+.basicWeb {
+    position: absolute;
+    color: #f5fdff;
+    text-align: center;
+    font-size: 50px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.basicAnimation {
+    position: absolute;
+    color: #f5fdff;
+    text-align: center;
+    font-size: 50px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.basicContent {
+    position: absolute;
+    color: #f5fdff;
+    text-align: center;
+    font-size: 50px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.basicUx {
+    position: absolute;
+    color: #f5fdff;
+    text-align: center;
+    font-size: 50px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+/*Main Grid start*/
+#mainGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+
+.column1 {
+    width: 45vw;
+    height: 70vh;
+    grid-column: 1;
+}
+
+.column2 {
+    width: 45vw;
+    height: 70vh;
+    grid-column: 2;
+}
+
+
+/*Main Grid stop*/
+
+/*Main Grid 2 start*/
+#mainGrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+/*Main Grid 2 stop*/
+
+/*Main Grid 3 start*/
+#mainGrid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+/*Main Grid 3 stop*/
+
+/*Main Grid 4 start*/
+#mainGrid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+/*Main Grid 4 stop*/
+
+/*Main Grid 5 start*/
+#mainGrid5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+/*Main Grid 5 stop*/
+
+/*Main Grid 6 start*/
+#mainGrid6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+/*Main Grid 6 stop*/
+
+/*Main Grid 7 start*/
+#mainGrid7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+/*Main Grid 7 stop*/
+
+
+.taskHeadline {
+    text-align: center;
+}
+
+a:link {
+    text-decoration-color: #6F8792;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #8F8C95;
+}
+
+.basicWebImg1 {
+    width: 90%;
+}
+
+.basicWebImg2 {
+    width: 100%;
+}
+
+.basicWebTxt1 {
+    margin: auto;
+    line-height: 25px;
+}
+
+/*Character animation start*/
+#character {
+    background-image: url("images/pngforanimation.png");
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    animation: waveing 3s steps(6) infinite;
+}
+
+@keyframes waveing {
+    to {
+        background-position: -3000px;
+    }
+}
+
+#bakcground {
+    background-image: url("images/pngforanimation-background.jpg");
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+    position: absolute;
+}
+
+/*Character animation stop*/
+.basicAnimationImg1 {
+    width: 30%;
+    margin-top: 500px;
+}
+
+.basicAnimationImg2 {
+    width: 15%;
+}
+
+.basicAnimationImg3 {
+    width: 49%;
+}
+
+.basicAnimationImg4 {
+    width: 49%;
+}
+
+.basicAnimationImg5 {
+    width: 60%;
+    margin-left: 95px;
+}
+
+.basicAnimationImg6 {
+    width: 80%;
+}
+
+.basicAnimationImg7 {
+    width: 80%;
+}
+
+.basicAnimationTxt1 {
+    margin: auto;
+    line-height: 25px;
+}
+
+.basicContentImg1 {
+    width: 100%;
+}
+
+.basicContentGallery {
+    width: 95vw;
+    margin-left: 17px;
+}
+.basicContentImg2 {
+    width: 30%;
+}
+
+.basicContentImg3 {
+    width: 30%;
+}
+
+.basicContentImg4 {
+    width: 30%;
+}
+
+.basicContentImg5 {
+    width: 30%;
+}
+
+.basicContentImg6 {
+    width: 30%;
+}
+
+.basicContentImg7 {
+    width: 30%;
+}
+.basicContentImg8 {
+    width: 36%;
+}
+.basicContentImg9 {
+    width: 35%;
+}
+.basicContentImg10 {
+    width: 36%;
+}
+
+.basicUxImg1 {
+    width: 49%;
+}
+
+.basicUxImg2 {
+    width: 49%;
+}
+.basicUxImg3 {
+    width: 90%;
+}
+.basicUxTxt1 {
+    margin-top: 15px;
+}
+
+
+/*MEDIA QUERY BW 700 START*/
+@media screen and (max-width:700px) {
+    .basicWeb {
+        font-size: 35px;
+    }
+}
+
+/*MEDIA QUERY BW 700 STOP*/
+
+/*MEDIA QUERY BA 700 START*/
+@media screen and (max-width:700px) {
+    .basicAnimation {
+        font-size: 30px;
+    }
+}
+
+/*MEDIA QUERY BA 700 STOP*/
+
+/*MEDIA QUERY BC 700 START*/
+@media screen and (max-width:700px) {
+    .basicContent {
+        position: absolute;
+        font-size: 30px;
+    }
+}
+
+/*MEDIA QUERY BC 700 STOP*/
+
+/*MEDIA QUERY BUX 700 START*/
+@media screen and (max-width:700px) {
+    .basicUx {
+        font-size: 35px;
+    }
+}
+
+/*MEDIA QUERY BUX 700 STOP*/
